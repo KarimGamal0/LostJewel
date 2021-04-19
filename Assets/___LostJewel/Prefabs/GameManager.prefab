@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7063777958740686865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7063777958740687343}
+  - component: {fileID: 7063777958740687342}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7063777958740687343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7063777958740686865}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7063777958740687342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7063777958740686865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec5deddaacab95243aee46c8c974bc49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diamond: {fileID: 11400000, guid: 205daea79a778d348a9b3d6caf97945e, type: 2}
+  keys: {fileID: 11400000, guid: 587007464d0faa7469a02c9cca4cdbc7, type: 2}
+  score: {fileID: 11400000, guid: ca541e95296ca0a4e88c707a2cb8ebba, type: 2}
+  losecount: {fileID: 11400000, guid: 38bd8755d844a504ba0774cf8ebb7cd9, type: 2}
+  isdead: {fileID: 11400000, guid: c5b692683b038e2449fbd8a30ac88db4, type: 2}
+  playerlost: {fileID: 11400000, guid: 93cde3217b94763438a3dd7f38efb904, type: 2}
+  playerdata: {fileID: 11400000, guid: 1372fc5109d5582419f5a40d4ccbf20b, type: 2}
+  checkpoints:
+  - {fileID: 11400000, guid: 838f11348f5cb884180e234f8b65905c, type: 2}
+  - {fileID: 11400000, guid: 822337b84fe276e4aabdb4339d68c631, type: 2}
+  - {fileID: 11400000, guid: 73b22b48a8bbf1a42822e5aefe552f0d, type: 2}
+  player: {fileID: 0}
+  playerstartingposition: {x: 0, y: 0}
+  playeranimator: {fileID: 0}
+  mainmenu: {fileID: 0}
+  pausemenu: {fileID: 0}
